@@ -4,21 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaqueline Fanton</title>
+    <title>Site</title>
     <style>
-        body{
-            border-color:#f3f4f6;/*Muda a cor da fonte*/
-            font-family:Arial, Helvetica, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 50px;
-            margin: 0;
-        }
-        .perfil{
-           text-align: center;
-           margin-bottom: 30px;  
-        }
+       
+       body{
+        background-color:#f3f4f6;/*Muda cor da fonte*/
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        margin: 0;
+       } 
+       footer{
+        margin-top: 20px;
+        font-size: 12px;
+        color: #888;
+       }
+       .perfil{
+        text-align: center;
+        margin-bottom: 30px;
+       }
+       .perfil img{
+        border:4px solid #fff;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+       }
+       .links{
+        width: 90%;
+        max-width: 400px;
+       }
+       .botao{
+        display: block;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        border:1px solid #ddd;
+        transition: background 0.3s ;
+       }
+       .botao:hover{
+        background-color: #007bff;
+        color: #fff;
+        border-color: #007bff;
+       }
+
     </style>
 </head>
 
@@ -28,10 +63,10 @@
         <h1>Jaqueline Fanton</h1>
         <p>Bem-vindo aos meus links</p>
     </div>
-    <div>
-        <a href="https://instagram.com/senairiodosul" target="_blank">instagram</a>
-        <a href="https://youtube.com/@professordanielbaumann" target="_blank">youtube</a>
-        <a href="https://github.com/jaquejjlk" target="_blank">GitHub</a>
+    <div class="links">
+        <a href="https://instagram.com/senairiodosul" class="botao" target="_blank">Instagram</a>
+        <a href="https://youtube.com/@professordanielbaumann" class="botao" target="_blank">Youtube</a>
+        <a href="https://github.com/jaquejjlk" class="botao" target="_blank">GitHub</a>
     </div>
     <footer>Criado por Jaqueline Fanton &copy; 2026</footer>
 </body>
